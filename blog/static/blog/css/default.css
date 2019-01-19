@@ -1,0 +1,116 @@
+
+* {
+        margin 0px;
+        padding: 0px;
+        list-style-type: none;
+}
+
+body {
+        margin: 0;
+        font-family: Avenir;
+}
+
+h2 {
+        padding-bottom: 20px;
+        font-family: Avenir;
+        font-size: 200%;
+        font-weight: 200;
+}
+
+h3 {
+        font-weight: 100;
+}
+
+header, nav, section, article, aside, footer {
+        display: block;
+}
+
+.clear {
+        clear: both;
+}
+
+a {
+        color: #000000;
+}
+
+a:link, a:visited, a:hover, a:active {
+        text-decoration: none;
+        font-family: Avenir;
+}
+
+.container {
+        width: 90%;
+        margin: 0px auto;
+}
+
+.navbar {
+	border: 0px;
+}
+
+.navbar-brand {
+        color: #ffffff;
+}
+
+.navbar-brand:hover {
+	color: #000000;
+}
+
+.container>.navbar-collapse {
+	padding-left: 40px;
+	text-align: left;
+	float: left;
+}
+
+.navbar .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+}
+
+.navbar{
+        padding-left: 20px;
+        padding-right: 20px;
+        background: rgba(0, 0, 0, 0.85);
+}
+
+.navbar ul li a {
+        color: #ffffff;
+        font-family: 'Avenir';
+        font-size: 110%;
+}
+
+.navbar ul li a:hover {
+        color: #000000;
+        background-color: #ffffff;
+}
+
+.content {
+        margin-top: 120px;
+        margin-bottom: 100px;
+}
+
+.content>.pagination {
+        padding-left: 15px;
+}
+
+.post {
+        border: 1px dotted #cccccc;
+        padding: 20px;
+        margin-bottom: 30px;
+}
+
+.post_text {
+        font-size: 110%;
+        font-weight: 100;
+        line-height: 1.8;
+}
+
+.post_pub_date {
+        font-size: 70%;
+        font-style: italic;
+}
+
+footer {
+        text-align: center;
+        font-style: italic;
+        padding: 10px;
+        margin: 10px;
+}
