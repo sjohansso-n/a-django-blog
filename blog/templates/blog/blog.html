@@ -7,9 +7,9 @@
 			{% for post in posts %}
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
 				<div class="post">
-					<h3><a href="{% url 'post' post.id %}" title="To post">{{ post.title }}</a></h3>
+					<h3><a href="{% url 'post' post.id %}?page={{ posts.number }}" title="To post">{{ post.title }}</a></h3>
 					<p class="post_text">{{ post.bodytext | slice:"400" | safe }}...</p>
-					<p><a href="{% url 'post' post.id %}" title="To post">To post >></a></p>
+					<p><a href="{% url 'post' post.id %}?page={{ posts.number }}" title="To post">To post >></a></p>
 				</div>
 			</div>
 			{% endfor %}
