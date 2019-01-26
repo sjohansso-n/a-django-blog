@@ -10,6 +10,9 @@ class Post(models.Model):
 
         def __str__(self):
                 return self.title
+        
+        class Meta:
+                ordering = ['-pub_date']
 
 class Tag(models.Model):
         tag = models.CharField(max_length=100)
